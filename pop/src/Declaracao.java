@@ -8,18 +8,18 @@ public class Declaracao {
         // Pergunta inicial
         int resposta = JOptionPane.showConfirmDialog(
                 null,
-                "Você é a Maria Hélen?",
-                "Confirmação",
+                "",
+                "",
                 JOptionPane.YES_NO_OPTION
         );
 
         if (resposta == JOptionPane.YES_OPTION) {
             // Caminho para os arquivos de imagem (certifique-se de que o caminho do arquivo esteja correto)
-            String caminhoImagem1 = "C:\\Users\\lucas.ladislau\\Downloads\\WhatsApp Image 2023-08-28 at 10.53.56.jpeg";
-            String caminhoImagem2 = "C:\\Users\\lucas.ladislau\\Downloads\\WhatsApp Image 2023-08-28 at 10.54.51.jpeg";
-            String caminhoImagem3 = "C:\\Users\\lucas.ladislau\\Downloads\\WhatsApp Image 2023-08-28 at 10.57.01.jpeg";
-            String caminhoImagem4 = "C:\\Users\\lucas.ladislau\\Downloads\\WhatsApp Image 2023-08-28 at 10.53.45.jpeg";
-            String caminhoImagem5 = "C:\\Users\\lucas.ladislau\\Downloads\\WhatsApp Image 2023-08-28 at 10.54.52.jpeg";
+            String caminhoImagem1 = "";
+            String caminhoImagem2 = "";
+            String caminhoImagem3 = "";
+            String caminhoImagem4 = "";
+            String caminhoImagem5 = "";
 
             // Crie instâncias de ImageIcon e JLabel para as imagens
             ImageIcon icon1 = criarImageIcon(caminhoImagem1, 200, 200);
@@ -29,18 +29,18 @@ public class Declaracao {
             ImageIcon icon5 = criarImageIcon(caminhoImagem5, 200, 200);
 
             // Exiba os pop-ups com as imagens
-            exibirPopUp(icon1, "EU TE AMO");
-            exibirPopUp(icon2, "HOJE E SEMPRE");
-            exibirPopUp(icon3, "TO MORRENDO DE SAUDADES");
-            exibirPopUp(icon4, "TE AMO DEMAIS GAROTAAAAAA");
-            exibirPopUp(icon5, "❤️❤️❤️❤️❤️❤️❤️❤️❤️");
+            exibirPopUp(icon1, "");
+            exibirPopUp(icon2, "");
+            exibirPopUp(icon3, "");
+            exibirPopUp(icon4, "");
+            exibirPopUp(icon5, "");
         } else {
             // O usuário escolheu "Não" ou fechou o pop-up de confirmação
             // Adicione aqui o que deseja fazer nesse caso
             JOptionPane.showMessageDialog(
                     null,
-                    "Você não é o meu amor ",
-                    "SE MANDA",
+                    " ", //Mensagem de se a opção for não
+                    "",
                     JOptionPane.INFORMATION_MESSAGE
             );
         }
