@@ -9,8 +9,8 @@ public class Confirma {
         // Pergunta inicial
         int resposta = JOptionPane.showConfirmDialog(
                 null,
-                "Você é o Samuel ?",
-                "Confirmação",
+                "",
+                "",
                 JOptionPane.YES_NO_OPTION
         );
 
