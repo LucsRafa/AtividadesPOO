@@ -16,11 +16,11 @@ public class Confirma {
 
         if (resposta == JOptionPane.YES_OPTION) {
             // URLs das imagens da web
-            String urlImagem1 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz8cTCStspuinSKamUHT-hbsUAZ8w70gmkqQ&usqp=CAU";
-            String urlImagem2 = "https://i.pinimg.com/originals/e8/b4/d5/e8b4d502b8ee0a9ee0cdb6df11a7ca48.png";
-            String urlImagem3 = "https://pbs.twimg.com/media/EPMQs_vUwAARzAu.jpg";
-            String urlImagem4 = "https://i.pinimg.com/236x/7c/20/50/7c205066e8fd812860702c5908440676.jpg";
-            String urlImagem5 = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIPihb2ihFwvkYHXMDvsUyRzmFueb8gP16N0X8XFBrmHDDR9uO7uzmKmuTWSauQGfddqY&usqp=CAU";
+            String urlImagem1 = "";
+            String urlImagem2 = "";
+            String urlImagem3 = "";
+            String urlImagem4 = "";
+            String urlImagem5 = "";
 
             // Crie instâncias de ImageIcon e JLabel para as imagens
             ImageIcon icon1 = criarImageIcon(urlImagem1, 200, 200);
